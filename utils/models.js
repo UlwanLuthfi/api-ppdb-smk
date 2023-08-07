@@ -17,6 +17,10 @@ const Student = mongoose.model("student", {
     type: String,
     require: true,
   },
+  kelaminManusia: {
+    type: String,
+    require: true,
+  },
   tempatLahir: {
     type: String,
     require: true,

@@ -22,6 +22,7 @@ app.post("/register", async (req, res) => {
     nik: req.body.nik,
     jurusan: req.body.jurusan,
     asalSekolah: req.body.asalSekolah,
+    kelaminManusia: req.body.kelaminManusia,
     tempatLahir: req.body.tempatLahir,
     tanggalLahir: req.body.tanggalLahir,
     umur: req.body.umur,
